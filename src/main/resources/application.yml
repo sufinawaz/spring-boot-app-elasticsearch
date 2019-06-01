@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: spring-boot-app-elasticsearch
+  data:
+    elasticsearch:
+      cluster-name: docker-cluster
+      cluster-nodes: localhost:9300
+
+  elasticsearch:
+    rest:
+      uris: http://localhost:9200
+
+server:
+  port: 8080
